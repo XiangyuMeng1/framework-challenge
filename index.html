@@ -5,16 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
+    <link rel="stylesheet" href="mvp.css">
+    <style>
+      img {
+        width: 600px; /* 设置目标宽度 */
+        height: 400px; /* 保持高度固定 */
+        object-fit: cover; /* 自动裁剪宽度 */
+      }
+    </style>
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>Center Bank of Brazil</h1>
+      <p>
+        The Most Popular Bank in Rio de Janeiro
+      </p>
+      <img src="Images/Bank.png" alt="Bank Image">
+      <a href="#">
+        <b>About Us</b>
+      </a>
+    </header>
+    <main>
+        <section id="Services">
+            <header>
+                <h2>Our Services</h2>
+                <p>Choose what do you want</p>
+            </header>
+            <aside>
+                <h3>Checking Account</h3>
+                <p>For daily spending</p>
+                <a href="#">
+                    <b>Learn More</b>
+                </a>
+                <p>
+                    <small>Your Daily Money Manager</small>
+                </p>
+            </aside>
+            <aside>
+                <h3>Saving Account</h3>
+                <p>For future saving</p>
+                <a href="#">
+                    <b>Learn More</b>
+                </a>
+                <p>
+                    <small>Secure Your Future Today</small>
+                </p>
+            </aside>
+        </section>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
