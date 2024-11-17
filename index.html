@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
     <link rel="stylesheet" href="mvp.css">
     <style>
       img {
-        width: 600px; /* 设置目标宽度 */
-        height: 400px; /* 保持高度固定 */
-        object-fit: cover; /* 自动裁剪宽度 */
+        width: 600px; 
+        height: 400px; 
+        object-fit: cover;
       }
     </style>
   </head>
@@ -51,6 +48,86 @@
                     <small>Secure Your Future Today</small>
                 </p>
             </aside>
+        </section>
+        <section id="appointment">
+            <header>
+              <h2>Appointment</h2>
+              <p>Schedule your service time</p>
+            </header>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                  <th>Sun</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td>10:00am</td>
+                  <td>10:00am</td>
+                  <td>10:00am</td>
+                  <td>10:00am</td>
+                  <td>10:00am</td>
+                  <td>10:00am</td>
+                  <td>10:00am</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>11:00am</td>
+                  <td>11:00am</td>
+                  <td>11:00am</td>
+                  <td>11:00am</td>
+                  <td>11:00am</td>
+                  <td>11:00am</td>
+                  <td>11:00am</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>2:00pm</td>
+                  <td>2:00pm</td>
+                  <td>2:00pm</td>
+                  <td>2:00pm</td>
+                  <td>2:00pm</td>
+                  <td>2:00pm</td>
+                  <td>2:00pm</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>5:00pm</td>
+                  <td>5:00pm</td>
+                  <td>5:00pm</td>
+                  <td>5:00pm</td>
+                  <td>5:00pm</td>
+                  <td>5:00pm</td>
+                  <td>5:00pm</td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+        <section id="form">
+          <form>
+            <header>
+              <h2>Contact Us</h2>
+            </header>
+            <label for="input1">Your Name</label>
+            <input type="text" id="input1" name="input1" size="20" placeholder="name">
+            <label for="Reasons">Contact Reason:</label>
+            <select id="Reasons">
+              <option value="option1">Account Assistance</option>
+              <option value="option2">Loan Inquiry</option>
+              <option value="option3">Other</option>
+          </select>
+          <label for="textarea1">Briefly describe your issue:</label>
+          <textarea cols="40" rows="5" id="textarea1"></textarea>
+          <button type="submit">Submit</button>
+          </form>
         </section>
     </main>
     <script src="index.js"></script>

@@ -1,5 +1,6 @@
 /* MVP.css v1.17 - https://github.com/andybrewer/mvp */
 
+
 :root {
   --active-brightness: 0.85;
   --border-radius: 5px;
@@ -59,7 +60,7 @@ article aside {
 }
 
 body {
-  background: var(--color-bg);
+  background: #eef7ff;
   color: var(--color-text);
   font-family: var(--font-family);
   line-height: var(--line-height);
@@ -100,9 +101,9 @@ section pre {
 }
 
 section aside {
-  border: 1px solid var(--color-bg-secondary);
+  border: 2px solid #333333;
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow) var(--color-shadow);
+  box-shadow: 5px(--box-shadow) var(--color-shadow);
   margin: 1rem;
   padding: 1.25rem;
   width: var(--width-card);
@@ -394,9 +395,9 @@ input[type="submit"][disabled]:hover {
 }
 
 form {
-  border: 1px solid var(--color-bg-secondary);
+  border: 2px solid #333333;
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow) var(--color-shadow);
+  box-shadow: 2px(--box-shadow) var(--color-shadow);
   display: block;
   max-width: var(--width-card-wide);
   min-width: var(--width-card);
@@ -593,4 +594,8 @@ blockquote footer {
 *::-webkit-scrollbar-thumb {
   background-color: var(--color-scrollbar);
   border-radius: 10px;
+}
+
+#form {
+  margin-top: 100px;
 }
